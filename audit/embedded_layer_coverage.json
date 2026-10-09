@@ -1,0 +1,70 @@
+{
+  "coverage": [
+    {
+      "wrapper": "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/JA21_JATP_Suite_1.0.0.expanded/JA21_JATP_Suite_1.0.0/source/uploaded/JA_Test_Simulation_and_Proof_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 1,
+      "original_id": "Corpora(2).zip::ja-proof_corpus_10000/ja-proof/CORPUS_SCHEMA.json",
+      "content_bytes": 8240,
+      "content_sha256": "09f532604fa25430c96a12ab90a777b4941c2176de1b5e878b8fe63fe30e6cf0",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/JA21_JATP_Suite_1.0.0.expanded/JA21_JATP_Suite_1.0.0/source/uploaded/JA_Test_Simulation_and_Proof_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 2,
+      "original_id": "Corpora(2).zip::ja-proof_corpus_10000/ja-proof/ja-proof_corpus_10000.jsonl",
+      "content_bytes": 61622434,
+      "content_sha256": "bd99ece880318ab607fac287e29aafb676caab329b0d1973887f0363f95bc910",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 10001,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/JA21_JATP_Suite_1.0.0.expanded/JA21_JATP_Suite_1.0.0/source/uploaded/JA_Test_Simulation_and_Proof_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 3,
+      "original_id": "Corpora(2).zip::ja-proof_corpus_10000/ja-proof/ja-proof_index.csv",
+      "content_bytes": 3463543,
+      "content_sha256": "8d440498de57c63c142faaa661e77cc2535ecc009b066ab48620b65ec5db0e5a",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/JA21_JATP_Suite_1.0.0.expanded/JA21_JATP_Suite_1.0.0/source/uploaded/JA_Test_Simulation_and_Proof_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 4,
+      "original_id": "Corpora(2).zip::ja-proof_corpus_10000/ja-proof/MANIFEST.json",
+      "content_bytes": 9106,
+      "content_sha256": "3a6ed429cc2911e89856d6fee1b7633f808e70d3dd770e973ca69bd7a275ebcd",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/JA21_JATP_Suite_1.0.0.expanded/JA21_JATP_Suite_1.0.0/source/uploaded/JA_Test_Simulation_and_Proof_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 5,
+      "original_id": "Corpora(2).zip::ja-proof_corpus_10000/ja-proof/README.md",
+      "content_bytes": 4547,
+      "content_sha256": "db36e059df2f5196389b6cdfdc4e9abbf341dd8d0ac73a294b850b7d8d4c6a95",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/JA21_JATP_Suite_1.0.0.expanded/JA21_JATP_Suite_1.0.0/source/uploaded/JA_Test_Simulation_and_Proof_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 6,
+      "original_id": "Corpora(2).zip::ja-proof_corpus_10000/ja-proof/SAMPLES.md",
+      "content_bytes": 96081,
+      "content_sha256": "67a2b3558e20768755f590d74e2f96c78564c5b239b1ac40177f414e8198b88e",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/JA21_JATP_Suite_1.0.0.expanded/JA21_JATP_Suite_1.0.0/source/uploaded/JA_Test_Simulation_and_Proof_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 7,
+      "original_id": "Corpora(2).zip::ja-proof_corpus_10000/ja-proof/SHA256SUMS.txt",
+      "content_bytes": 907,
+      "content_sha256": "6f90d46ac7c7d8c1a4359e805b5bd5c72ad99ab799f2a48f9bdc974d3ffd5687",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    }
+  ],
+  "findings": [],
+  "note": "Embedded record totals overlap reconstructed datasets. They are additional coverage, not unique training examples."
+}

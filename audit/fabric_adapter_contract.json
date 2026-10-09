@@ -1,0 +1,14 @@
+{
+  "profile": "ja.proof",
+  "proposed_contribution": "Fixtures, properties, deterministic simulations and proof obligations",
+  "reuse_boundary": "Keep independent fixture oracles; current checks do not certify a native JA proof runtime.",
+  "source_archive_sha256": "08b45edd34d9f125eb20d2600d6d39bcbaf81675bfa4fbab67f0d5ff155227c6",
+  "source_evidence_paths": [
+    "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/JA21_JATP_Suite_1.0.0.expanded/JA21_JATP_Suite_1.0.0/SUITE_CATALOG.md",
+    "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/JA21_JATP_Suite_1.0.0.expanded/JA21_JATP_Suite_1.0.0/catalogs/FEATURE_ATLAS.md",
+    "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/JA21_JATP_Suite_1.0.0.expanded/JA21_JATP_Suite_1.0.0/specification/GRAMMAR_SPECIFICATION.md",
+    "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/JA21_JATP_Suite_1.0.0.expanded/JA21_JATP_Suite_1.0.0/specification/LANGUAGE_SPECIFICATION.md"
+  ],
+  "executable_adapter_implemented": false,
+  "mathematical_foundation": "8S Penteract-S3 Master Coupled Mechanics Law for intended JA model; typed operator semantics require their owning profile."
+}

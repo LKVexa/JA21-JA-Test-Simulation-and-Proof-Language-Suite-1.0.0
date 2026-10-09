@@ -1,0 +1,25 @@
+{
+  "system": "Verification Orrery",
+  "air_gap_safe": true,
+  "colors": {
+    "obsidian": "#0B1220",
+    "slate": "#172235",
+    "cyan": "#56D6E9",
+    "violet": "#A78BFA",
+    "amber": "#F3C969",
+    "ice": "#E7F4F7",
+    "danger": "#FF7B7B"
+  },
+  "typography": {
+    "display": "local sans-serif fallback",
+    "body": "local serif/sans fallback",
+    "code": "local monospace fallback"
+  },
+  "motifs": [
+    "concentric verification orbits",
+    "event timelines",
+    "proof lattices",
+    "counterexample nodes",
+    "receipt seals"
+  ]
+}

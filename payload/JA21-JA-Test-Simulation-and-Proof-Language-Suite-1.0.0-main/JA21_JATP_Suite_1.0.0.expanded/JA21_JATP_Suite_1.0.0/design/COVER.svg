@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#0B1220"/>
+<g fill="none" stroke="#56D6E9" stroke-width="4" opacity="0.65"><ellipse cx="1120" cy="430" rx="330" ry="220"/><ellipse cx="1120" cy="430" rx="240" ry="155"/><ellipse cx="1120" cy="430" rx="145" ry="90"/></g>
+<g fill="#A78BFA"><circle cx="790" cy="430" r="11"/><circle cx="1290" cy="285" r="11"/><circle cx="1210" cy="515" r="11"/></g>
+<path d="M820 430 C930 260 1120 260 1290 285" fill="none" stroke="#F3C969" stroke-width="6"/>
+<path d="M820 430 C980 590 1100 600 1210 515" fill="none" stroke="#56D6E9" stroke-width="6"/>
+<g font-family="Arial, sans-serif" fill="#E7F4F7"><text x="110" y="235" font-size="32" letter-spacing="5">JA21 LANGUAGE SUITE</text><text x="110" y="330" font-size="66" font-weight="700">TEST · SIMULATION</text><text x="110" y="405" font-size="66" font-weight="700">AND PROOF</text><text x="110" y="485" font-size="28">Technical Corpus · 1,000 Programs · Textbook</text><text x="110" y="565" font-size="22" fill="#56D6E9">SOPHIA · CHARLOTTE · LANDON · PROFESSOR · PODIUM</text><text x="110" y="790" font-size="20" fill="#F3C969">VERSION 1.0.0 · AIR-GAP-SAFE PUBLICATION</text></g>
+</svg>

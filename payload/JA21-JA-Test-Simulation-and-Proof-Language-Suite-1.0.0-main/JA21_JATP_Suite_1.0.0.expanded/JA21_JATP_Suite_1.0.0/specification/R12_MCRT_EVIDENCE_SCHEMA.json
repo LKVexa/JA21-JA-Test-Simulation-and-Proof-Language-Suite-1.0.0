@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JA Test, Simulation, and Proof R12/MCRT Evidence Profile",
+  "type": "object",
+  "required": [
+    "source_sha256",
+    "ast_node",
+    "semantic_judgment",
+    "r12_record",
+    "verification_environment",
+    "mcrt_record",
+    "evidence_scope"
+  ],
+  "properties": {
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "ast_node": {
+      "type": "string"
+    },
+    "semantic_judgment": {
+      "type": "string"
+    },
+    "r12_record": {
+      "type": "string"
+    },
+    "verification_environment": {
+      "type": "object",
+      "properties": {
+        "seed": {},
+        "virtual_clock": {},
+        "failure_schedule": {},
+        "resource_profile": {},
+        "toolchain_identity": {},
+        "replay_id": {}
+      }
+    },
+    "mcrt_record": {
+      "type": "string"
+    },
+    "evidence_scope": {
+      "enum": [
+        "modeled",
+        "structural",
+        "native",
+        "replayed",
+        "certified"
+      ]
+    }
+  }
+}

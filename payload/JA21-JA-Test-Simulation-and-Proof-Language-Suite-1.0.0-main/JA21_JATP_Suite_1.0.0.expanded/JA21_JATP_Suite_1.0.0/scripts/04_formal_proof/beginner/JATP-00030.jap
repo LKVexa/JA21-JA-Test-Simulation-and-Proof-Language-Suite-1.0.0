@@ -1,0 +1,25 @@
+ja source 0.3
+module corpus.ja_proof.example_00030
+use Proof
+policy no_network
+
+fixture FixtureJATP_00030 {
+    input 32
+    expected 992
+}
+unit test FixtureCheckJATP_00030 {
+    let fixture_result = FixtureJATP_00030.input * 31
+    assert fixture_result == FixtureJATP_00030.expected
+}
+property PropertyJATP_00030 for_all x: Count where x <= 32 {
+    let result = x * 31
+    invariant result >= x
+}
+simulation FailureJATP_00030 {
+    virtual_time 32s
+    inject network.partition at 31s
+    expect service.recovers within 34s
+}
+benchmark BenchJATP_00030 limit cpu 32ms memory 39MB
+assert proof.complete == true
+emit mcrt "PropertyJATP_00030.proof.mcrt"

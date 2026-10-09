@@ -1,0 +1,64 @@
+{
+  "repository": "JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0",
+  "copyright": "JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0 (C) 2026 RUSSELL PHILIP SMITHSON",
+  "license": "GPL-3.0-only",
+  "publication_date": "2026-10-09",
+  "source_preservation": "Original source directories, compressed archives, source manifests, and prior audit source statistics remain unchanged.",
+  "manifest_policy": "Only existing current manifest/checksum records covering files changed by the licensing pass were refreshed. No source audit statistics were rewritten.",
+  "changes": [
+    {
+      "path": "COPYRIGHT",
+      "action": "added",
+      "reason": "Requested repository copyright attribution",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "31f6e2bec6e5c5c92a9d0bb2dbe2b5df291eb8c107e51896f46b143941d0d069",
+      "current_bytes": 126
+    },
+    {
+      "path": "LICENSE",
+      "action": "added",
+      "reason": "Requested GPL-3.0-only repository license",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "current_bytes": 35149
+    },
+    {
+      "path": "NOTICE",
+      "action": "added",
+      "reason": "Repository license and publication provenance notice",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "131a02dd7a75ce52af6da8056164442074d92ebca0ab8f5caebd23067835eb43",
+      "current_bytes": 395
+    },
+    {
+      "path": "audit/updated_manifest.json",
+      "action": "modified",
+      "reason": "Refresh current manifest records for licensing edits",
+      "original_sha256": "bc4a2f846c116e1d113263bdad6a76c76139606a21fb2eb3aa879393de4a7740",
+      "original_bytes": 336604,
+      "current_sha256": "c8b200290a9236fec5691aa95dc6c8c7723c9ae3d96299c2e4da7deb870c6001",
+      "current_bytes": 331214
+    },
+    {
+      "path": "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/LICENSE.txt",
+      "action": "modified",
+      "reason": "Replace prior authored package license notice with requested GPL-3.0-only",
+      "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "original_bytes": 11358,
+      "current_sha256": "8a139ad8ed992623f798e2446bb5e1b473ffc88b08b4f2fce7bdc3182c44ba1c",
+      "current_bytes": 35276
+    }
+  ],
+  "current_manifest_updates": [
+    {
+      "path": "audit/updated_manifest.json",
+      "covered_changes": [
+        "payload/JA21-JA-Test-Simulation-and-Proof-Language-Suite-1.0.0-main/LICENSE.txt"
+      ]
+    }
+  ],
+  "ledger_integrity": "The publication-wide checksum manifest should cover this ledger; this ledger does not include a self-hash."
+}
